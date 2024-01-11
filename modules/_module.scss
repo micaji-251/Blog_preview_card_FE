@@ -1,0 +1,63 @@
+.container{
+    width: 350px;
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 25px;
+    
+    box-shadow: black 10px 10px;
+    margin: 50% 10px;
+
+    .img__container{
+        width: 300px;
+        height: 200px;
+        border-radius: 25px;
+        overflow: hidden;
+        height: 180px;
+
+        img{
+        width: 300px;
+        height: 200px;
+        }
+    }
+
+    .label{
+        background-color: hsl(47, 88%, 63%);
+        color: hsl(0, 0%, 7%);
+        padding: 8px 15px;
+        border: none;
+        border-radius: 10px;
+        margin: 15px 0;
+        font-weight: 800;
+        font-size: 13px;
+    }
+
+    .date{
+        padding-top: 5px;
+        font-size: 13px;
+        font-weight: 400;
+        color: hsl(0, 0%, 7%);
+    }
+    .title{
+        font-size: 24px;
+        color: hsl(0, 0%, 7%);
+        font-weight: 800;
+        padding: 20px 0;
+    }
+
+    .text{
+        color:hsl(0, 0%, 50%);
+        font-size: 16px;
+
+    }
+
+    .user__container{
+        padding: 30px 0 5px;
+
+        .usertext{
+            padding: 0 10px;
+            font-weight: 800;
+            font-size: 16px;
+
+        }
+    }
+}
